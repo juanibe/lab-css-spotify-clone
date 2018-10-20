@@ -13,7 +13,6 @@ White: #FFF
 
 }
 
-
 .nav-bar{
     padding: 10px 0 10px 0;
     position: fixed;
@@ -50,6 +49,7 @@ h1{
     bottom: 200px;
     left: 17%;
     color: white;
+    font-size: 10em;
 }
 
 p{
@@ -67,3 +67,29 @@ h2{
     text-decoration: underline green;
     
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .flex-container>div{
+    width: 33.33%;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .flex-container-green{
+    display: flex;
+  }
+  
+  .flex-container-green>div{
+    margin: 10px;
+    width: 50%;
+    text-align:center;
+  }
+  
+  .spotify-functions{
+    display: flex;
+   
+  }
